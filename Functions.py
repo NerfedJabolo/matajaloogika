@@ -1,3 +1,4 @@
+import math
 #1. Inside the function
 def func():
     print('I`m inside the function')
@@ -44,3 +45,11 @@ def ask_name_and_greet_user():
         print("Get out of here, Thanos! Nobody wants to play with you!")
 
 ask_name_and_greet_user()
+
+def calculate_hypotenuse_length(a, b):
+    print(math.sqrt(a**2 + b**2))
+calculate_hypotenuse_length(3, 4)
+
+def calculate_cathetus_length(c, b):
+    print(math.sqrt(c**2 - b**2))
+calculate_cathetus_length(5, 4)
