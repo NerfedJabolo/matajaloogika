@@ -35,6 +35,7 @@ print_hello()
 greeting = get_hello()
 print(greeting)
 
+#Task
 def ask_name_and_greet_user():
     name = input("Enter your name: ").lower().capitalize()
     if (name != "Thanos"):
